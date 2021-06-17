@@ -57,6 +57,7 @@ for j in range(len(videos)):
     part = 0
     while success:
         if (count % 2) == 0:
+            print('Success:', success, 'Frames read:', count)
             # quando já se extraiu 4 frames
             if part == 4:
                 # faz-se a média e dá-se reset a part
